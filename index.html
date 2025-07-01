@@ -1,103 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        .product-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 50px;
-            background: white;
-            margin: 50px auto;
-            width: 60%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .product-image img {
-            max-width: 300px;
-            border-radius: 5px;
-        }
-        .product-details {
-            margin-left: 20px;
-        }
-        .price {
-            font-size: 24px;
-            color: #333;
-        }
-        .add-to-cart {
-            background: #ff6600;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
-        .add-to-cart:hover {
-            background: #cc5200;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: white;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <div class="product-container">
-            <div class="product-image">
-                <img src="/img/pexels-madebymath-90946.jpg" alt="Product Image">
-            </div>
-            <div class="product-details">
-                <h1>Product Name</h1>
-                <p class="price">$99.99</p>
-                <p class="description">This is a short description of the product highlighting its features and benefits.</p>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-        </div>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Your E-commerce Site</p>
-    </footer>
+  <header>
+    <nav>
+      <div class="logo">🛒 MyStore</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="cart-icon">
+          🛍️ Cart <span id="cart-count">0</span>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="product-container">
+      <div class="product-image">
+        <img src="img/pexels-madebymath-90946.jpg" alt="Product Image" />
+      </div>
+      <div class="product-details">
+        <h1>Premium Smartwatch</h1>
+        <p class="price">$99.99</p>
+        <p class="description">
+          A feature-rich smartwatch with heart-rate monitoring, fitness tracking, and a sleek, durable design.
+        </p>
+        <button class="add-to-cart">Add to Cart</button>
+        <p id="confirmation-msg" class="hidden">✔️ Added to cart!</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyStore. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
