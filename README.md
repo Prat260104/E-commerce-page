@@ -23,5 +23,13 @@ A sleek, responsive, and fully functional multi-page **e-commerce website** buil
 
 ---
 
+## 💻 Run Locally
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Prat260104/E-commerce-page.git
+   cd E-commerce-page
+   ```
+
 
 
