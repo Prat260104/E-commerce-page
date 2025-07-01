@@ -3,39 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Product Page</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Home - MyStore</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <nav>
       <div class="logo">🛒 MyStore</div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Contact</a></li>
-        <li class="cart-icon">
-          🛍️ Cart <span id="cart-count">0</span>
-        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html" class="cart-icon">🛍️ Cart <span id="cart-count">0</span></a></li>
+
       </ul>
     </nav>
   </header>
 
-  <main>
-    <div class="product-container">
-      <div class="product-image">
-        <img src="img/pexels-madebymath-90946.jpg" alt="Product Image" />
-      </div>
-      <div class="product-details">
-        <h1>Premium Smartwatch</h1>
-        <p class="price">$99.99</p>
-        <p class="description">
-          A feature-rich smartwatch with heart-rate monitoring, fitness tracking, and a sleek, durable design.
-        </p>
-        <button class="add-to-cart">Add to Cart</button>
-        <p id="confirmation-msg" class="hidden">✔️ Added to cart!</p>
-      </div>
-    </div>
+  <main class="home-banner">
+    <h1>Welcome to MyStore</h1>
+    <p>Explore our premium tech products at the best prices.</p>
+    <a href="shop.html" class="shop-now-btn">Shop Now</a>
   </main>
 
   <footer>
