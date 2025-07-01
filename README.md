@@ -4,20 +4,6 @@ A sleek, responsive, and fully functional multi-page **e-commerce website** buil
 
 ---
 
-## 🔗 Live Demo
-
-👉 [**View Live**](https://prat260104.github.io/E-commerce-page/)
-
----
-
-## 📸 Screenshots
-
-| Home Page                        | Product Page                     |
-|----------------------------------|----------------------------------|
-| *(Add screenshots to /img and update here)* | *(Add screenshots to /img and update here)* |
-
----
-
 ## 🚀 Features
 
 - ✅ Multi-page layout: **Home**, **Shop**, **Cart**, and **Contact**
@@ -37,5 +23,5 @@ A sleek, responsive, and fully functional multi-page **e-commerce website** buil
 
 ---
 
-## 📁 Project Structure
+
 
